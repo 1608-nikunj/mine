@@ -1,79 +1,106 @@
-# HEIN.
+# mine
+
 
 Ecommerce Web Application built with the MERN Stack.
-Inspired by [_Lama Dev_](https://www.youtube.com/c/LamaDev)
+
 
 ## 🏁 Get Started
 
+
 1. **_Clone the repository_**
 
+
 ```sh
-git clone https://github.com/YousefElshabrawy/HEIN..git
+git clone https://github.com/1608-nikunj/mine.git
 ```
+
 
 2. **_Navigate to the repository directory_**
 
+
 ```sh
-$ cd HEIN.
+$ cd mine
 ```
+
 
 ### 💻 Client
 
+
 1. **_Navigate to the client directory_**
+
 
 ```sh
 $ cd client
 ```
 
+
 2. **_Install dependencies_**
+
 
 ```sh
 $ npm install
 ```
 
+
 #### Running
 
+
 1. **_Compile and hot-reload for development_**
+
 
 ```sh
 $ npm run dev
 ```
 
+
 2. **_Compile for production_**
+
 
 ```sh
 $ npm run build
 ```
 
+
 ### 💻 Server
 
+
 1. **_Navigate to the server directory_**
+
 
 ```sh
 $ cd server
 ```
 
+
 2. **_Install dependencies_**
+
 
 ```sh
 $ npm install
 ```
 
+
 #### Running
 
+
 1. **_Compile and hot-reload for development_**
+
 
 ```sh
 $ npm run start
 ```
 
+
 2. **_Compile for production_**
+
 
 ```sh
 $ npm run build
 ```
 
+
 ## 💻 Built With
+
 
 - **ReactJS**
 - **Redux**
@@ -83,7 +110,9 @@ $ npm run build
 - **TailwindCSS**
 - **Stripe**
 
+
 ## 📂 File Structure
+
 
 ```sh
 |-- README.md
@@ -157,7 +186,6 @@ $ npm run build
         |-- stripe.js
         `-- user.js
 ```
-
 ## 📷 Screenshots
 
 - ### Large Screens
@@ -172,7 +200,3 @@ $ npm run build
   ![large screens](ss/large/signup.png)
   <br>
   ![large screens](ss/large/login.png)
-
-## 🎥 Demo Videos
-
-https://user-images.githubusercontent.com/62210671/191046065-db8459d3-83ea-41a0-a898-abfd42432277.mp4
