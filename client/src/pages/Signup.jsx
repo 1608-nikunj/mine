@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-const Register = () => {
+const Signup = () => {
   return (
     <div className='px-4 w-full h-screen flex justify-center items-center bg-login bg-no-repeat bg-cover'>
       <form
@@ -63,4 +63,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Signup;

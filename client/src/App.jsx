@@ -7,10 +7,10 @@ import ShoppingCategorie from './pages/ShoppingCategorie';
 import SingleProduct from './pages/SingleProduct';
 import ShoppingCart from './pages/ShoppingCart';
 import Orders from './pages/Orders';
-// import Signup from './pages/Signup';
+import Signup from './pages/Signup';
 import Login from './pages/Login';
 import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
-import Register from './pages/Signup';
+// import Register from './pages/Signup';
 
 const App = () => {
   const user = useSelector((store) => store.auth.currentUser);
@@ -32,8 +32,8 @@ const App = () => {
         <Orders />
       </Route>
       <Route path='/login'>{user ? <Redirect to='/' /> : <Login />}</Route>
-      <Route path='/register'>
-        <Register />
+      <Route path='/signup'>
+        <Signup />
       </Route>
     </Switch>
   );
