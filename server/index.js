@@ -39,6 +39,7 @@ app.use((req, res) => {
     message: 'Error serving the request !'
   });
 });
+mongoose.set('strictQuery', true);
 
 mongoose.connect('mongodb://localhost:27017/manik')
   .then(() => {
