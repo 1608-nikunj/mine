@@ -58,16 +58,16 @@ const ShoppingCart = () => {
             <p className='mr-4 cursor-pointer'>
               Shopping Bag ({cart.totalQantity})
             </p>
-            {/* <a className='underline cursor-pointer'>Your Wishlist (0)</a> */}
+            <a className='underline cursor-pointer'>Your Wishlist (0)</a>
           </div>
           <div>
             <StripeCheckout
-              name='HEIN.'
+              name='Mine'
               billingAddress
               shippingAddress
               description={`Your total is ${cart.totalPrice}`}
               amount={cart.totalPrice * 100}
-              currency='USD'
+              currency='INR'
               token={onToken}
               stripeKey='pk_test_51LbSFeDby8a9HLcBzbuGETbDJiWZkCbNQx3gSpAfRZIKSrvsKakFGjvkNPTvzuHNNXKDYojDjdk3XhLlTajrQmeZ00JSyq9AOO'
             >
