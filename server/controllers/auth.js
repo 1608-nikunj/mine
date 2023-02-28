@@ -6,7 +6,7 @@ const User = require('../models/User');
 
 module.exports.register = (req, res, next) => {
   // const errors = validationResult(req);
-  // !errors.isEmpty() && res.status(400).json({ errors: errors.array() });
+  !errors.isEmpty() && res.status(400).json({ errors: errors.array() });
   const username = req.body.username;
   const email = req.body.email;
   const password = req.body.password;
