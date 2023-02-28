@@ -88,15 +88,15 @@ const ShoppingCart = () => {
               <h1 className='uppercase text-4xl mb-8'>order summary</h1>
               <div className='flex justify-between mb-8'>
                 <span className='capitalize'>subtotal</span>
-                <span>$ {cart.totalPrice}</span>
+                <span>₹ {cart.totalPrice}</span>
               </div>
               <div className='flex justify-between mb-8'>
                 <span className='capitalize'>estimated shipping</span>
-                <span>$ 00.00</span>
+                <span>₹ 00.00</span>
               </div>
               <div className='flex justify-between mb-8'>
                 <span className='capitalize'>shipping discount</span>
-                <span>-$ 00.00</span>
+                <span>-₹ 00.00</span>
               </div>
               <div className='flex justify-between mb-8'>
                 <span className='capitalize font-bold text-2xl'>Total</span>

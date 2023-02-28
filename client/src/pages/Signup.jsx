@@ -55,7 +55,7 @@ const Signup = () => {
           </a>
         </p>
         <button className='mb-4 bg-teal-700 text-white p-2'>Create</button>
-        <Link to='/login' className='capitalize underline mb-4'>
+        <Link to='/register' className='capitalize underline mb-4'>
           Already have an account
         </Link>
       </form>

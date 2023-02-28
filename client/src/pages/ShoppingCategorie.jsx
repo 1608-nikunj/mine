@@ -8,6 +8,7 @@ import Footer from '../layout/Footer';
 import Products from '../components/Products';
 import Newsletter from '../components/Newsletter';
 import Title from '../components/Title';
+import Filter from '../components/Filter';
 
 const ShoppingCategorie = () => {
   const { category } = useParams();
@@ -16,6 +17,7 @@ const ShoppingCategorie = () => {
     <>
       <Announcement />
       <Navbar />
+      <Filter />
       <Title>{`${category.charAt(0).toUpperCase()}${category.slice(1)}`}</Title>
       <Products category={category} />
       <Newsletter />

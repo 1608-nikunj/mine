@@ -7,12 +7,14 @@ import Categories from '../components/Categories';
 import Products from '../components/Products';
 import Newsletter from '../components/Newsletter';
 import Footer from '../layout/Footer';
+import Filter from '../components/Filter';
 
 const Home = () => {
   return (
     <>
       <Announcement />
       <Navbar />
+      <Filter />
       <Carousel />
       <Categories />
       <Products />
